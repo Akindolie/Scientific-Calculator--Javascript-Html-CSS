@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Calaculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+<body>
+    <h1>Calculator</h1>
+    <div id="calc-parent">
+        <div class="row">
+            <div class="column" id="calc-display-val">0</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-func column" data-func="sin" id="calc-sin">sin</div>
+            <div class="calc-btn calc-btn-func column" data-func="cos" id="calc-cos">cos</div>
+            <div class="calc-btn calc-btn-func column" data-func="tan" id="calc-tan">tan</div>
+           
+            
+            <div class="calc-btn calc-btn-operator column" id="calc-modulus">Mod</div>
+            <div class="calc-btn column" id="calc-clear">AC</div>
+            <div class="calc-btn column" id="calc-backspace">&#8676;</div>
+            <div class="calc-btn calc-btn-operator calc-btn-o column" id="calc-divide">&#247;</div>
+        </div>
+        <div class="row">
+            
+           
+            <div class="calc-btn calc-btn-func column" data-func="sinh" id="calc-sinh">sinh</div>
+            <div class="calc-btn calc-btn-func column" data-func="cosh" id="calc-cosh">cosh</div>
+            <div class="calc-btn calc-btn-func column" data-func="tanh" id="calc-tanh">tanh</div>
+            
+           
+           <div class="calc-btn calc-btn-num column" data-sign="0x37" id="calc-seven">7</div> 
+           <div class="calc-btn calc-btn-num column" data-sign="0x38" id="calc-eight">8</div> 
+           <div class="calc-btn calc-btn-num column" data-sign="0x39" id="calc-nine">9</div> 
+           <div class="calc-btn calc-btn-operator calc-btn-o column" id="calc-multiply">x</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-root column" data-sign="0xb2" id="calc-xtwo">x&#178;</div>
+            <div class="calc-btn calc-btn-root column" data-sign="0xb3" id="calc-xthree">x&#179;</div>
+            <div class="calc-btn calc-btn-operator column" data-func="powr" id="calc-pow">x&#8319;</div>
+           
+          
+            
+            <div class="calc-btn calc-btn-num column" data-sign="0x34" id="calc-four">4</div> 
+            <div class="calc-btn calc-btn-num column" data-sign="0x35" id="calc-five">5</div> 
+            <div class="calc-btn calc-btn-num column" data-sign="0x36" id="calc-six">6</div> 
+            <div class="calc-btn calc-btn-operator calc-btn-o column" id="calc-minus">-</div>
+        </div>
+        <div class="row">
+           
+            <div class="calc-btn calc-btn-func column" data-func="squareroot" id="calc-squareroot">&#8730;</div>
+            <div class="calc-btn calc-btn-func column" data-func="cuberoot" id="calc-3squ">&#8731;</div>
+            <div class="calc-btn calc-btn-func column" data-func="log10" id="calc-log10">log</div>
+           
+            <div class="calc-btn calc-btn-num column" data-sign="0x31" id="calc-one">1</div> 
+            <div class="calc-btn calc-btn-num column" data-sign="0x32" id="calc-two">2</div> 
+            <div class="calc-btn calc-btn-num column" data-sign="0x33" id="calc-three">3</div> 
+            <div class="calc-btn calc-btn-operator calc-btn-o column" id="calc-plus">+</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn  calc-btn-root column" data-sign="0x213c" id="calc-pi">&#8508;</div>
+            <div class="calc-btn calc-btn-func column" data-func="log" id="calc-in">&#8305;&#8319;</div>
+          
+            <div class="calc-btn calc-btn-operator column" data-func="nsqr" id="calc-xfour">10&#8319;</div>
+           
+           
+           
+            <div class="calc-btn calc-btn-num column" data-sign="0x30" id="calc-zero">0</div> 
+            <div class="calc-btn  column" id="calc-decimal">.</div>
+            <div class="calc-btn  calc-btn-operator calc-btn-o column" id="calc-equals">=</div>
+        </div>
+    </div>
+   <script src="calc.js"></script>
+</body>
+</html>

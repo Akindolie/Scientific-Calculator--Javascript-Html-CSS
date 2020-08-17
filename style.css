@@ -1,0 +1,86 @@
+ link href = "https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet"> 
+
+body{
+    font-family: 'Roboto', sans-serif;
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Opera and Firefox */
+}
+
+.calc-btn{
+    background-color:black;
+    color:silver;
+    width: 25px;
+    height: 30px;
+    border: 1px solid rgb(105, 105, 105);
+    text-align: center;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 100;
+    padding-top: 3px;
+    border-radius: 25px;
+
+}
+
+.calc-btn:hover{
+    background-color: rgb(255, 102, 0);
+    
+    
+}
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 80%;
+    background-color: #383838;
+
+}
+.column {
+    display: table-cell;
+}
+#calc-zero {
+    width: 52px;
+}
+#calc-display-val{
+    height: 80px; color: white;
+    text-align: right;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 65px;
+    background-color:#131212;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 10px 10px 0 0;
+}
+.calc-btn-o {
+    background-color: rgb(255, 102, 0);
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#calc-equals{
+     border-radius: 25px;
+}
+#calc-rad {
+    border-radius: 25px;
+}
+#calc-parent {
+    margin-left: calc(50% - 40%);
+}
+.calc-btn-num{
+    background-color: rgb(37, 36, 36);
+    
+}
+#calc-modulus{
+    background-color: black;
+}
+#calc-modulus:hover{
+    background-color: rgb(255, 102, 0);
+}
